@@ -3,5 +3,5 @@
   "extends": [
     "config:recommended"
   ],
-  "additionalBranchPrefix": "{{{ replace '(.*?)\\/.*' '$1' packageFileDir}}}/"
+  "additionalBranchPrefix": "{{packageFileDir}}"
 }
