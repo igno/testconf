@@ -1,9 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "docker:pinDigests"
   ],
-  "commitMessageSuffix": "in {{{replace 'src\\/([a-z0-9]+)\\/*(.*)' '$1 $2' packageFileDir}}}",
+  "commitMessageSuffix": " {{{replace 'src\\/([a-z0-9]+)\\/*(.*)' '$1 $2' packageFileDir}}}",
   "additionalBranchPrefix": "{{packageFileDir}}",
   "branchConcurrentLimit": 10,
   "prConcurrentLimit": 10,
