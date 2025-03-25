@@ -3,5 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "additionalBranchPrefix": "{{packageFileDir}}/"
+  "additionalBranchPrefix": "{{packageFileDir}}/",
+  "branchConcurrentLimit": 10
 }
