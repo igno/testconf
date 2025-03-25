@@ -4,5 +4,6 @@
     "config:recommended"
   ],
   "additionalBranchPrefix": "{{packageFileDir}}/",
-  "branchConcurrentLimit": 10
+  "branchConcurrentLimit": 10,
+  "prConcurrentLimit": 10
 }
