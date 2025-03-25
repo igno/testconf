@@ -4,7 +4,7 @@
     "config:recommended"
   ],
   "commitMessageSuffix": "in {{{replace 'src\\/([a-z0-9]+)\\/*(.*)' '$1 $2' packageFileDir}}}",
-  "additionalBranchPrefix": "{{packageFileDir}}/",
+  "additionalBranchPrefix": "{{packageFileDir}}",
   "branchConcurrentLimit": 10,
   "prConcurrentLimit": 10,
   "prHourlyLimit": 10
