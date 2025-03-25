@@ -3,12 +3,5 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
-    {
-      "matchPaths": [
-        "src**"
-      ],
-      "groupName": "{{{ replace '(src.*?)\\/.*' '$1' packageFileDir}}}"
-    }
-  ]
+  "additionalBranchPrefix": "{{{ replace '(.*?)\\/.*' '$1' packageFileDir}}}/"
 }
